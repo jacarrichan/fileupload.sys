@@ -22,15 +22,15 @@ import com.sunshine.fusys.util.LogUtil;
 * 创建时间:2013/04/24
 * 功能描述:加载IP区
 */
-@Service("loadService")
+//@Service("loadService")
 public class LoadService {
 	
 	private final Logger LOGGER=LoggerFactory.getLogger(getClass());
 	
-	@Autowired
+//	@Autowired
 	private IpAreaDictionaryService ipAreaDictionaryService;
 	
-	@Autowired
+//	@Autowired
 	private CacheFactory userCache;
 	
 	public synchronized void onMessage(){
